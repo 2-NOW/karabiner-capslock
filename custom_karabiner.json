@@ -11,6 +11,16 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -34,6 +44,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -57,6 +72,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -81,6 +101,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -105,6 +130,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -127,6 +157,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -149,6 +184,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -171,6 +211,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -193,6 +238,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -216,6 +266,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -239,6 +294,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -262,6 +322,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -285,6 +350,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -306,6 +376,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -327,6 +402,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -348,6 +428,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -369,6 +454,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -392,6 +482,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -413,6 +508,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -434,6 +534,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -455,6 +560,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -476,6 +586,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -497,6 +612,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
@@ -517,6 +637,11 @@
               "name": "caps_lock_mode",
               "type": "variable_if",
               "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
             }
           ],
           "from": {
