@@ -300,28 +300,6 @@
           "type": "basic"
         },
         {
-          "description": "caps_lock + e to delete a char after",
-          "conditions": [
-            {
-              "name": "caps_lock_mode",
-              "type": "variable_if",
-              "value": 1
-            }
-          ],
-          "from": {
-            "key_code": "e",
-            "modifiers": {
-              "optional": ["any"]
-            }
-          },
-          "to": [
-            {
-              "key_code": "delete_forward"
-            }
-          ],
-          "type": "basic"
-        },
-        {
           "description": "caps_lock + a to select all",
           "conditions": [
             {
@@ -575,6 +553,37 @@
             {
               "set_variable": {
                 "name": "caps_lock_mode",
+                "value": 0
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + spacebar mode",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "caps_lock_space_mode",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "caps_lock_space_mode",
                 "value": 0
               }
             }
