@@ -14,7 +14,7 @@
             "modifiers": { "optional": ["any"] }
           },
           "to": [
-            { "shell_command": "open -a 'Visual Studio Code.app'" },
+            { "shell_command": "open -a 'Visual Studio Code - Insiders.app'" },
             { "select_input_source": { "language": "en" } }
           ],
           "type": "basic"
