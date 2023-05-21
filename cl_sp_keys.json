@@ -1,0 +1,36 @@
+{
+  "title": "CapsLock Enhancement - Space Mode - Keys",
+  "rules": [
+    {
+      "description": "space mode",
+      "manipulators": [
+        {
+          "description": "caps_lock + space + i to control + up_arrow",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "i",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": ["control"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

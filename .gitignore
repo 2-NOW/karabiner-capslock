@@ -1,2 +1,10 @@
 *.json
-!custom_karabiner.josn
+!custom_karabiner.json
+!cl_default.json
+!cl_variables.json
+!cl_shortcut.json
+!cl_arrows.json
+!cl_command.json
+!cl_keys.json
+!cl_sp_keys.json
+!cl_tab_keys.json

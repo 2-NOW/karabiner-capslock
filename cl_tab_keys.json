@@ -1,0 +1,122 @@
+{
+  "title": "CapsLock Enhancement - Tab Mode - Keys",
+  "rules": [
+    {
+      "description": "tab mode",
+      "manipulators": [
+        {
+          "description": "caps_lock + tab + i to control + up_arrow (stage)",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_tab_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "i",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": ["control"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "caps_lock + tab + k to control + option + enter - full screen (with magnet)",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_tab_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "k",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter",
+              "modifiers": ["control", "option"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "caps_lock + tab + j to control + option + left_arrow - left half screen (with magnet)",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_tab_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "j",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": ["control", "option"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "caps_lock + tab + l to control + option + right_arrow - right half screen (with magnet)",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_tab_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "l",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": ["control", "option"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

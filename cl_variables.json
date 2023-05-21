@@ -1,0 +1,103 @@
+{
+  "title": "CapsLock Enhancement - Variables",
+  "rules": [
+    {
+      "description": "variables",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "caps_lock_mode",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "caps_lock_mode",
+                "value": 0
+              }
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "caps_lock + spacebar mode",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "caps_lock_space_mode",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "caps_lock_space_mode",
+                "value": 0
+              }
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "caps_lock + tab mode",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "tab",
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "caps_lock_tab_mode",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "caps_lock_tab_mode",
+                "value": 0
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

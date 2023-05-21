@@ -1,0 +1,272 @@
+{
+  "title": "CapsLock Enhancement - Keys",
+  "rules": [
+    {
+      "description": "default keys",
+      "manipulators": [
+        {
+          "description": "caps_lock + backspace to left_option + delete",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "delete_or_backspace",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace",
+              "modifiers": ["left_option"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + a to select all",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "a",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + s to save",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "s",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "s",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + c to copy",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "c",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + v to paste",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "optional": ["left_shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + f to left_command + f",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "f",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "f",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + w to left_command + w",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "w",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "w",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + z to left_command + z",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "z",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "z",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + x to left_command + x",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "x",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "x",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "caps_lock + d to left_command + d",
+          "conditions": [
+            {
+              "name": "caps_lock_mode",
+              "type": "variable_if",
+              "value": 1
+            },
+            {
+              "name": "caps_lock_space_mode",
+              "type": "variable_if",
+              "value": 0
+            }
+          ],
+          "from": {
+            "key_code": "d",
+            "modifiers": {}
+          },
+          "to": [
+            {
+              "key_code": "d",
+              "modifiers": ["left_gui"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
