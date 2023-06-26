@@ -5,7 +5,7 @@
         "description": "function keys",
         "manipulators": [
             {
-                "description": "caps_lock + q to escape",
+                "description": "caps_lock + space + q to escape",
                 "conditions": [
                   {
                     "name": "caps_lock_mode",
@@ -15,23 +15,23 @@
                   {
                     "name": "caps_lock_space_mode",
                     "type": "variable_if",
-                    "value": 0
+                    "value": 1
                   }
                 ],
                 "from": {
-                  "key_code": "w",
+                  "key_code": "q",
                   "modifiers": {}
                 },
                 "to": [
                   {
                     "key_code": "escape",
-                    "modifiers": "any"
+                    "modifiers": {}
                   }
                 ],
                 "type": "basic"
               },
               {
-                "description": "caps_lock + 1 to f1",
+                "description": "caps_lock + space + 1 to f1",
                 "conditions": [
                   {
                     "name": "caps_lock_mode",
@@ -41,7 +41,7 @@
                   {
                     "name": "caps_lock_space_mode",
                     "type": "variable_if",
-                    "value": 0
+                    "value": 1
                   }
                 ],
                 "from": {
@@ -57,7 +57,7 @@
                 "type": "basic"
               },
               {
-                "description": "caps_lock + 2 to f2",
+                "description": "caps_lock + space + 2 to f2",
                 "conditions": [
                   {
                     "name": "caps_lock_mode",
@@ -67,7 +67,7 @@
                   {
                     "name": "caps_lock_space_mode",
                     "type": "variable_if",
-                    "value": 0
+                    "value": 1
                   }
                 ],
                 "from": {
