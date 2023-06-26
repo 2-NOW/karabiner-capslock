@@ -2,7 +2,7 @@
     "title": "CapsLock Enhancement - Space Mode - Function Keys",
     "rules": [
       {
-        "description": "function keys",
+        "description": "space mode - function keys",
         "manipulators": [
             {
                 "description": "caps_lock + space + q to escape",
