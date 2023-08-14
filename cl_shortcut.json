@@ -63,7 +63,7 @@
         },
 
         {
-          "description": "caps_lock + 5 = slack",
+          "description": "caps_lock + 5 = todo",
           "conditions": [
             { "name": "caps_lock_mode", "type": "variable_if", "value": 1 }
           ],
@@ -71,12 +71,12 @@
             "key_code": "5",
             "modifiers": { "optional": ["any"] }
           },
-          "to": [{ "shell_command": "open -a 'Slack.app'" }],
+          "to": [{ "shell_command": "open -a 'Microsoft To Do.app'" }],
           "type": "basic"
         },
 
         {
-          "description": "caps_lock + 6 = obsidian",
+          "description": "caps_lock + 6 = discord",
           "conditions": [
             { "name": "caps_lock_mode", "type": "variable_if", "value": 1 }
           ],
@@ -84,20 +84,7 @@
             "key_code": "6",
             "modifiers": { "optional": ["any"] }
           },
-          "to": [{ "shell_command": "open -a 'Obsidian.app'" }],
-          "type": "basic"
-        },
-
-        {
-          "description": "caps_lock + 7 = todo",
-          "conditions": [
-            { "name": "caps_lock_mode", "type": "variable_if", "value": 1 }
-          ],
-          "from": {
-            "key_code": "7",
-            "modifiers": { "optional": ["any"] }
-          },
-          "to": [{ "shell_command": "open -a 'Microsoft To Do.app'" }],
+          "to": [{ "shell_command": "open -a 'Discord.app'" }],
           "type": "basic"
         }
       ]
