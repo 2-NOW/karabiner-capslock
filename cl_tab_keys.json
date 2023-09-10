@@ -5,39 +5,7 @@
       "description": "tab mode",
       "manipulators": [
         {
-          "description": "caps_lock + tab + i to control + up_arrow (stage)",
-          "conditions": [
-            {
-              "name": "caps_lock_mode",
-              "type": "variable_if",
-              "value": 1
-            },
-            {
-              "name": "caps_lock_tab_mode",
-              "type": "variable_if",
-              "value": 1
-            },
-            {
-              "name": "caps_lock_space_mode",
-              "type": "variable_if",
-              "value": 0
-            }
-          ],
-          "from": {
-            "key_code": "i",
-            "modifiers": {}
-          },
-          "to": [
-            {
-              "key_code": "up_arrow",
-              "modifiers": ["control"]
-            }
-          ],
-          "type": "basic"
-        },
-
-        {
-          "description": "caps_lock + tab + k to control + option + enter - full screen (with magnet)",
+          "description": "caps_lock + tab + i to option + command + f - full screen",
           "conditions": [
             {
               "name": "caps_lock_mode",
@@ -51,20 +19,19 @@
             }
           ],
           "from": {
-            "key_code": "k",
-            "modifiers": {}
+            "key_code": "i"
           },
           "to": [
             {
-              "key_code": "return_or_enter",
-              "modifiers": ["control", "option"]
+              "key_code": "f",
+              "modifiers": ["option", "command"]
             }
           ],
           "type": "basic"
         },
 
         {
-          "description": "caps_lock + tab + j to control + option + left_arrow - left half screen (with magnet)",
+          "description": "caps_lock + tab + j to option + command + left_arrow - left half screen",
           "conditions": [
             {
               "name": "caps_lock_mode",
@@ -84,14 +51,14 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["control", "option"]
+              "modifiers": ["option", "command"]
             }
           ],
           "type": "basic"
         },
 
         {
-          "description": "caps_lock + tab + l to control + option + right_arrow - right half screen (with magnet)",
+          "description": "caps_lock + tab + l to option + command + right_arrow - right half screen",
           "conditions": [
             {
               "name": "caps_lock_mode",
@@ -111,7 +78,7 @@
           "to": [
             {
               "key_code": "right_arrow",
-              "modifiers": ["control", "option"]
+              "modifiers": ["option", "command"]
             }
           ],
           "type": "basic"
