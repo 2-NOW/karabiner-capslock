@@ -19,11 +19,11 @@
             }
           ],
           "from": {
-            "key_code": "i"
+            "key_code": "k"
           },
           "to": [
             {
-              "key_code": "k",
+              "key_code": "f",
               "modifiers": ["option", "command"]
             }
           ],
