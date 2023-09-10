@@ -5,7 +5,7 @@
       "description": "tab mode",
       "manipulators": [
         {
-          "description": "caps_lock + tab + i to option + command + f - full screen",
+          "description": "caps_lock + tab + k to option + command + f - full screen",
           "conditions": [
             {
               "name": "caps_lock_mode",
@@ -23,7 +23,7 @@
           },
           "to": [
             {
-              "key_code": "f",
+              "key_code": "k",
               "modifiers": ["option", "command"]
             }
           ],
