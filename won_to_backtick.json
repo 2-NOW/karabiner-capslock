@@ -2,7 +2,7 @@
   "title": "For Korean",
   "rules": [
     {
-      "description": "Change Won (₩) to grave accent (`) in Korean layout.",
+      "description": "change won (₩) to grave accent (`) in Korean layout.",
       "manipulators": [
         {
           "conditions": [
