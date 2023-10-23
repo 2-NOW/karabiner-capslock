@@ -1,5 +1,5 @@
 {
-  "title": "For Korean",
+  "title": "won to grave accent",
   "rules": [
     {
       "description": "change won (₩) to grave accent (`) in Korean layout.",
